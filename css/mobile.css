@@ -1,0 +1,53 @@
+@media(max-width: 500px) {
+    #what .items {
+        display: block;
+        padding: 16px;
+    }
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    #navbar .logo {
+        margin-bottom: 10px;
+    }
+    #navbar ul {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .l-heading {
+       font-size: 40px;
+       margin-bottom: 20px;
+    }
+    
+    #showcase .showcase-content .lead {
+        font-size: 19px;
+        line-height: 1.2em;
+    }
+    #who .who-image {
+        display: none;
+    }
+    #contact {
+        height: 900px;
+        flex-direction: column;
+    }
+    #contact .map {
+        
+    }
+}
+@media(max-width: 400px) {
+    #showcase .showcase-content .l-heading {
+        line-height: 40px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .lead {
+        text-align: center;
+        font-size: 10px;
+    }
+    .l-heading {
+        font-size: 40px;
+        margin-bottom: 20px;
+        
+    }
+}

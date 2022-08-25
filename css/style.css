@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,100&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.2rem;
+}
+a {
+    text-decoration: none;
+}
+p {
+    margin: 0.8rem;
+}
+#navbar {
+    background: #555;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding: 10px;
+}
+#navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a {
+    color: #fff;
+    padding: 7px;
+    margin: 0px 4px;
+
+}
+.py-1 {padding: 20px 0;}
+.py-2 {padding: 30px 0;}
+.py-3 {padding: 40px 0;}
+
+.p-1 {padding: 20px;}
+.p-2 {padding: 30px;}
+.p-3 {padding: 40px;}
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 30px;
+    overflow: hidden;
+}
+.text-primary {
+    color: #93cb52;
+}
+.m-heading {
+    text-align: center;
+
+    margin-bottom: 40px;
+}
+.l-heading {
+    font-size: 40px;
+    margin-bottom: 20px;
+    
+}
+.btn {
+    display: inline-block;
+    background-color: #93cb52;
+    color: #fff;
+    border: none;
+    padding: 7px 18px;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: #7ab436;
+}
+.bg-primary {
+    background-color: #93cb52;
+    color: #fff;
+}
+.btn-dark {
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+.bg-light {
+    background-color: #f4f4f4;
+    color: #333;
+}
+.lead {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+#navbar ul li a:hover {
+    background: #93cb52;
+    border-radius: 5px;
+}
+#showcase {
+    background: #333 url(../image_resources/showcase.jpg) no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+}
+#showcase .showcase-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 5px;
+    
+   
+}
+
+#what .items {
+    display: flex;
+    padding: 16px;
+}
+#what .items .item {
+    flex: 1;
+    padding: 16px;
+    text-align: center;
+}
+#what .items .item i {
+    background-color: #93cb52;
+    padding: 10px;
+    border-radius: 50%;
+}
+#who {
+    display: flex;
+}
+#who div {
+    flex: 1;
+}
+#who .who-image {
+    background: url(../image_resources/people.jpg) no-repeat center center/cover;
+}
+#who h2 {
+    padding-left: 12px;
+}
+#who .who-text ul {
+    list-style: none;
+    margin: 15px 0;
+    padding-left: 12px;
+}
+#who h3 {
+    padding-left: 12px;
+}
+#who .who-text ul li {
+    padding-bottom: 10px;
+    border-bottom: #555 dotted 1px;
+
+}
+#clients .items {
+    display: flex;
+}
+#clients h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+#clients .items img {
+    display: block;
+    margin: auto;
+    width: 60%;
+    
+}
+#contact {
+    display: flex;
+}
+#contact .contact-form, #contact .map {
+    flex: 1;
+}
+#contact h2 {
+    padding-left: 10px;
+}
+#contact .contact-form .form-group {
+    padding-left: 10px;
+    margin: 12px;
+}
+#contact .contact-form .form-group label {
+    display: block;
+}
+#contact .contact-form  input, #contact .contact-form .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+#closure {
+    text-align: center;
+}
